@@ -1,0 +1,280 @@
+                      
+
+<!DOCTYPE html>
+<html>
+<title> Jamia Hamdard </title>
+<meta charset="UTF-8">
+{%load static%}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static 'w3.css' %}">
+<link rel="stylesheet" href="C:\Users\Madtech\Desktop\College Web\home\w3-theme-black.css">
+<link rel="stylesheet" href="C:\Users\Madtech\Desktop\College Web\home\font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+	
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Admission Procedure</a>
+  <a href="#" class="w3-bar-item w3-button">Rules and Regulation</a>
+  <a href="#" class="w3-bar-item w3-button">Library Rules</a>
+  <a href="#" class="w3-bar-item w3-button">Anti Ragging</a>
+  <a href="#" class="w3-bar-item w3-button">Comittee</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Achievers</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Faculty</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Courses</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Download <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Information Brouture</a>
+      <a href="#" class="w3-bar-item w3-button">Previous Result</a>
+      <a href="#" class="w3-bar-item w3-button">Documents</a>
+	  <a href="#" class="w3-bar-item w3-button">Fees Structure</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Achievers</a>
+    <a href="#work" class="w3-bar-item w3-button">Faculty</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Courses</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="jmm.jpg" width="400" height"300" border="10">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class0="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">ABOUT US</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Message from the desk of vice chancellor……....</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container" style="text-align: justify;">
+      <p>It is my privilege and pleasure to welcome you, the budding managers to Jamia Hamdard, a centre of innovation and  excellence where we nurture young talents. Our major emphasis of imparting education is to encourage curiosity  and innovativeness amongst our students and lay a foundation from where they can acquire quick learning ability and adaptability. The student-centric approach brings about a three-sixty degree development of students that  empowers them to face the challenges in this highly competitive and ever changing world. A challenging academic program, and individual attention for our students combined with many extra-curricular opportunities are all part of Jamia Hamdard experience.
+ </p> <p>Our Mission......jamia hamdard is an institute of higher education deemed to be  University located in New Delhi, india. it is a goverment-funded university.established in 1989,was formally inaugurated by the Prime Minister of India shri Rajiv Gandhi on august 1,1989. it was awarded the institute of eminence by ministry of Human Resource Developement.Our aim is to provide education to all.We are committed to produce quality man-power equipped with human and social values to integrate excellent technical skill, social character,leadership,creativity and innovation for the benefit of mankind and sustainable development of the nation. <a class="w3-text-teal" href="">We creating future</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Visit Us</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TOP ACHIEVERS</h2>
+<p>Meet with top achievers</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="about.jpg"height="300" width="200" border="5">
+  <h3>anjali sharma</h3>
+  <p>MBBS Year 2016</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="image.jpg"height="300" width="200" border="5">
+  <h3>nikhil arora</h3>
+  <p>MBBS Year 2016</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="picture.jpg"height="300" width="200" border="5">
+  <h3ankit tiwari</h3>
+  <p>B.Sc. Year 2016</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="topper.jpg"height="300" width="200" border="5">
+  <h3>Kamal Rana</h3>
+  <p>B.tech Year  2018</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Vision</h2>
+<p>Our vision is to be a premier and a leader in developing and offering quality programmes to equip students with necessary skills to face the up growing competitive world and to help them pave the way to a rewarding future.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="cs.jpg"height="300" width="200" border="5">
+  <div class="w3-container">
+  <h3>Science Department</h3>
+  <h4>Faculty</h4>
+  <p>Mr. Praveen Agarwal</p>
+  <p>Miss. Tanya Singh</p>
+  <p>Mr.prashant Sharma</p>
+  <p>Miss.Sonam Singhal</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="comm.jpg"height="300" width="200" border="5">
+  <div class="w3-container">
+  <h3>Commerce Department</h3>
+  <h4>Faculty</h4>
+  <p>Dr. Praveen singh</p>
+  <p>Mr. Rajveer solanki</p>
+  <p>Mr. Amar Nath Singh</p>
+  <p>	
+Mr. Sanjay Kumar Nagar</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="arts.jpg"height="300" width="200" border="5">
+  <div class="w3-container">
+  
+  <h4>Faculty</h4>
+  <p>Mr. Dilip Kumar</p>
+  <p>Miss. Richa Sharma</p>
+  <p>Smt. Mamta Devi</p>
+  <p>Smt. Swati Rani</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>COURSES</h2>
+    <p>Institute offer different courses</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Science & Technology</p>
+        </li>
+        <li class="w3-padding-16"><b>BBA</b></li>
+        <li class="w3-padding-16"><b>BCA</b></li>
+        <li class="w3-padding-16"><b>BSc</b></li>
+        <li class="w3-padding-16"><b>MSc</b></li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Enquire Now </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Commerce & Art</p>
+        </li>
+        <li class="w3-padding-16"><b>BA</b></li>
+        <li class="w3-padding-16"><b>MA</b></li>
+        <li class="w3-padding-16"><b>BCom</b></li>
+        <li class="w3-padding-16"><b>BCom (Hons.)</b></li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Enquire Now </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Education</p>
+        </li>
+        <li class="w3-padding-16"><b>B.Ed</b></li>
+        <li class="w3-padding-16"><b>M.Ed50</b></li>
+        <li class="w3-padding-16"><b>LLB</b></li>
+        <li class="w3-padding-16">--<b></b></li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Enquire Now </button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p> Hamdard University, Hamdard Nagar, New Delhi</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>    Hamdard Nagar , (New Delhi) Pin- 110062</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  011-26059688</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  jamiahamdard@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!Doctype html>
+<html lang="en">
+   <head>
+       <title>Google Maps</title>
+   <head>
+<body>
+     <h1>Contact</h1>
+
+     <p>
+          <strong>Address:</strong>
+          <br> Jamia Hamdard
+          <br>Hamdard Nagar new delhi
+
+     <p> 
+          <strong>phone:</strong>
+          <br>(07)  3331  5000
+     </p>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.8062054480843!2d77.24830111423321!3d28.51547778246415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce17200f30e01%3A0xa21a99247ddc4c4c!2sJamia%20Hamdard!5e0!3m2!1sen!2sin!4v1592293747303!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</body>
+</html>
